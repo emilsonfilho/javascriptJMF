@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Libre Bodoni', serif;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.topo {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.topo img{
+    width: 200px;
+}
+.menu{
+    background-color: black;
+}
+
+.navbar {
+    background-color: black !important;
+}
+.banner img{
+    width: 100%;
+}
+.sobre{
+    padding-top: 100px;
+}
+.sobre h1{
+    padding-bottom: 70px;
+}
+.sobre img{
+    width: 100%;
+}
+
+.cadastro {
+    padding: 100px 0;
+}
+
+.email {
+    text-align: center;
+    padding: 100px;
+    background-color: black;
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.email > h1 {
+    padding-bottom: 95px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(197, 46, 46, 0.719);
+    font-size: 2.8em;
+}
+
+.email > a {
+    background-color: blueviolet;
+    border: blueviolet;
+    color: white;
+}
+
+.email > a:hover {
+    background-color: rgb(105, 32, 173);
+    color: rgba(255, 255, 160, 0.616);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px 0 10px 0;
+    font-size: 14px;
+}
+#btnTop{
+    position: fixed;
+    bottom: 18px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background: #ccc;
+    border-radius: 100%;
+    display: none;
+    opacity: 45%;
+}
+#btnTop img{
+    width: 30px;
+}
+
+.error {
+    color: rgb(156, 6, 6);
+}

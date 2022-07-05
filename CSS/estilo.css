@@ -1,0 +1,27 @@
+div.topo {
+    background-color: #212529;
+    width: 100%;
+} 
+img.imagem{
+    width: 100%;
+}
+
+div.promocoes {
+    margin: 40px;
+}
+.planoDeFundo{
+padding: 150px;
+background: #ffbe29 url('../PW1/js/bootstrap/img/universe.jpg') center center no-repeat fixed;
+background-size: cover;
+}
+.rodape {
+  text-align: center;
+  padding: 25px 0;
+  background-color: #212529;
+    color: white;
+}
+
+.cadastro {
+    margin: 30px;
+}
+
