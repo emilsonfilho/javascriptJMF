@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM BEATS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="jmBeats.css">
+</head>
+<body>
+    <div class="container topo">
+       <div class="row">
+           <div class="col-lg-12">
+               <img src="img/jm_beats.png" alt="Logotipo">
+           </div>
+       </div>
+    </div>
+    <div class="menu">
+        <div class="container">
+            <div class="row">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cadastros
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#cadastro">Novos Clientes</a></li>
+                            <li><a class="dropdown-item" href="#email">E-mail</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </nav>
+            </div> 
+        </div>
+    </div>
+    <!-- inicio do banner -->
+    <div class="col-lg-12 banner">
+      <img id="img" src="img/banner.png" title="banner img" alt="">
+    </div>
+    <!-- fim do banner -->
+    
+    <!-- Sessão Sobre -->
+    <div class="container sobre" id="sobre">
+      <div class="row">
+        <h1>Sobre o Dj JM</h1>
+        <div class="col-lg-6">
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa magnam tenetur facere. Quibusdam, unde incidunt voluptatibus, velit temporibus enim aliquid iusto ducimus ut cum aut. Laborum libero tempora fuga quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ratione voluptas doloribus soluta dolore minus quae nemo placeat maxime corporis! Quidem quia consectetur, perspiciatis voluptates quae animi voluptas? Maiores, deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, vel amet iste quasi similique praesentium qui nesciunt totam dolor aut quibusdam rerum libero vero reprehenderit et veniam ad molestias repellat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate consequuntur quidem doloremque possimus, dicta quia expedita. Impedit mollitia tempora a eveniet reprehenderit omnis soluta, voluptatibus eum, consequuntur, quidem molestiae beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur natus quia possimus reprehenderit officia dolore cumque velit dolores. Id eius quos porro deserunt accusamus qui! Odio dolores neque voluptates! A. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi minus debitis ipsam rerum excepturi inventore cumque. Maiores, aut exercitationem sit doloribus molestiae libero excepturi incidunt voluptas ipsum, non est sapiente?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur quis sequi, iusto illo quisquam repudiandae tempora similique ea inventore vitae aut quod, qui distinctio laudantium corrupti ullam totam id velit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum reiciendis inventore, dicta voluptate iure fugit sequi assumenda vitae a amet alias minus dolore rem ea ullam fugiat odio facilis? Necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius libero, exercitationem in ipsum commodi excepturi distinctio modi soluta, id velit perspiciatis doloribus consectetur magnam, similique illum amet labore placeat.</p>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/banner2.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- fim da sessão Sobre -->
+    <div class="container cadastro" id="cadastro">
+      <form>
+        <div class="row">
+          <h1>Cadastro de novos clientes</h1>
+          <div class="col-lg-6">
+            <div class="form-group">
+              <label>Nome do cliente:</label>
+              <input type="text" placeholder="Seu nome completo..." class="form-control" name="nome">
+            </div>
+            <div class="form-group">
+              <label>Endereço:</label>
+              <input type="text" placeholder="Seu endereço..." class="form-control" name="endereco">
+            </div>
+            <div class="form-group">
+              <label>CPF:</label>
+              <input type="text" placeholder="Seu CPF..." class="form-control" name="cpf">
+            </div>
+            <div class="form-group">
+              <label>Data de nascimento:</label>
+              <input type="date" class="form-control" name="dataN">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="form-group">
+              <label>Telefone:</label>
+              <input type="tel" placeholder="Qual seu número de contato?" class="form-control" name="telefone">
+            </div>
+            <div class="form-group">
+              <label>E-mail:</label>
+              <input type="email" placeholder="Seu endereço de Email.." class="form-control" name="email">
+            </div>
+            <br>
+            <button class="btn btn-dark">Cadastrar Cliente</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-lg-12 email" id="email">
+      <h1>Cadastrar E-mail</h1>
+      <button class="btn btn-lg">Cadastrar meu e-mail</button>
+    </div>
+    <footer>
+      <p>
+        Todos os direitos reservados - &copy; Emilson Filho & Fernando || Infor2021 
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

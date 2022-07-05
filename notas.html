@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas por Competência</title>
+    <link rel="stylesheet" href="PW1/js/bootstrap/css/bootstrap.min.css">
+</head>
+<body> 
+    <div class="container">
+        <div class="row"> 
+            <h1>Nota por Competência</h1>
+            <hr>
+            <form id="formulario">
+                <div class="form-group">
+                    <label>Parcial:</label>
+                    <input type="text" name="parcial" id="parcial" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Global</label>
+                    <input type="text" name="global" id="global" class="form-control">
+                </div>
+                <h1>Tipo de Avaliação</h1>
+                <hr>
+                <div class="form-group">
+                    <label>Eixo Regular</label> <input type="radio" name="radio" id="regular"> <br>
+                    <label>Eixo Técnico</label> <input type="radio" name="radio" id="tecnico">
+                </div>
+                <hr>
+                <button class="btn btn-warning" id="btn" onclick="calculo()">Calcular Média</button>
+            </form> 
+
+        </div>
+    </div>
+     <!-- 
+        / = Alt Gr + Q
+        ? = Alt Gr + W
+        ° = Alt Gr + E
+        ® = Alt Gr + R
+        Ŧ Alt Gr + T
+        ← = Alt Gr + Y
+        ↓ = Alt Gr + U
+        → = Alt Gr + I
+        Ø = Alt Gr + O
+        Þ = Alt Gr + P
+        Æ = Alt Gr + A
+        ß = Alt Gr + S 
+        Ð = Alt Gr + D
+        đ = Alt Gr + F
+        Ŋ = Alt Gr + G
+        Ħ = Alt Gr + H
+        ̉ = Alt Gr + J
+        ĸ = Alt Gr + K
+        Ł = Alt Gr + L
+        « = Alt Gr + Z
+        » = Alt Gr + X
+        © = Alt Gr + C
+        “ = Alt Gr + V
+        ” = Alt Gr + B
+        N = Alt Gr + N
+        µ = Alt Gr + M
+      -->
+      <script src="PW1/js/bootstrap/js/notas2.js"></script>
+</body>
+</html>

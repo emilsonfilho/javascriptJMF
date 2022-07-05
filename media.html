@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações</title>
+    <link rel="stylesheet" href="PW1/js/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Calculo da Média</h1>
+            <script>
+             n1=69;
+             n2=90;
+             n3=80;
+             n4=10;
+            // calculo da media
+            media = (n1 + n2 + n3 + n4) / 4;
+            document.write('<div class="alert alert-primary" role="alert"> As notas são: ' + n1 + ', ' + n2 + ', ' + n3 + ' e ' + n4 + '.</div>')
+            document.write('<div class="alert alert-success" role="alert"> A media é: '+media+ '</div>');
+            document.write('<hr>');
+            if ((media >= 6) && (media <= 10)) {
+                document.write('<div class="alert alert-success" role="alert">Você está aprovado!!</div>');
+            } else if((media >= 4) && (media < 6)) {
+                document.write('<div class="alert alert-warning" role="alert">Você não passou, contudo tens uma nova chance.</div>');
+            } else if (media > 10) {
+                document.write('<div class="alert alert-secondary" role="alert">Média inválida (<code>'+media+'</code>) Superior a 10</div>');
+            } else {
+                document.write('<div class="alert alert-danger" role="alert">Você reprovou...</div>');
+            }
+            </script>
+        </div>
+    </div>
+     
+</body>
+</html>

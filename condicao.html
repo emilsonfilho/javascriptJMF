@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Condicional com JS</title>
+    <link rel="stylesheet" href="PW1/js/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Estrutura Condicional (Estrutura de Controle)</h1>
+            <script>
+            condicao = 20;
+            // Estrutura de Condição If 
+            if (condicao > 10) {
+                document.write("<p>A variável <code>condicao(" + condicao + ")</code> é maior que 10.</p>");
+            } else {
+                document.write('<p>A variável <code>condicao(' + condicao + ')</code> é menor que 10.</p>');
+            }
+            /* Se a variável condicao for maior que 20
+            Mostrar condição superior a 20
+                Se a variável condicao for menor que 10
+            Mostrar condição inferior a 10
+                Se a variável condição for maior que 10 e menor que 20
+            Mostrar variável condicao está entre 10 e 20. */
+            document.write('<hr>')
+            if (condicao >= 20) {
+                document.write('<p>Condição(<code>' + condicao + '</code>) superior ou igual a 20</p>');
+            } else if (condicao < 10) {
+                document.write('<p>Condição(<code>' + condicao + '</code>) inferior a 10</p>');
+            } else {
+                document.write('<p>Condição(<code>' + condicao + '</code>) está entre 10 e 20</p>');
+            }
+            </script>
+        </div>
+    </div>
+     
+</body>
+</html>

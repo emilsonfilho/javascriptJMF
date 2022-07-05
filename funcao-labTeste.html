@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions com JS</title>
+    <link rel="stylesheet" href="PW1/js/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Função com JS</h1>
+            <script>
+                /* Function = uso quando vou criar uma função */
+                // msg é o nome da função criada 
+                // () identifica que é uma função
+
+                /*
+                 ANOTAÇÕES DA AULA
+                 1. 
+                */
+                function msg() {
+                   /* var dentro da função identifica uma variável local */
+                    var texto="Olá Mundo";
+                   /* alert = função própria do JS que cria a tela sobre a página */
+                   alert(texto);
+                }
+                function testeV(texto){
+                    alert(texto);
+                    
+                }
+            </script>
+            <div class="col-lg-6">
+                <button class="btn btn-primary" id="button">Chamar função 1</button>
+            </div>
+            <div class="col-lg-6">
+                <button class="btn btn-success" onclick="testeV('Hi!')"> coluna 2</button>
+            </div>
+        </div>
+    </div>
+     <script>
+         const botao = document.getElementById('button');
+                botao.addEventListener('click', msg);
+     </script>
+</body>
+</html>
