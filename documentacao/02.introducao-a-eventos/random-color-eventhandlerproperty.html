@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random color example — event handler property</title>
+    <style>
+      button {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Change color</button>
+    <script>
+      const btn = document.querySelector('button');
+
+      function random(number) {
+        return Math.floor(Math.random()*number);
+      }
+
+      function bgChange() {
+        const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        document.body.style.backgroundColor = rndCol;
+      }
+
+      window.onmouseover = bgChange;
+
+      /*
+        btn.onfocus e btn.onblur — A cor mudará quando o botão estiver focado e fora de foco 
+        (tente pressionar a guia para aba no botão e desligar novamente). Eles geralmente são 
+        usados para exibir informações sobre como preencher campos de formulário quando eles 
+        estão focalizados ou exibir uma mensagem de erro se um campo de formulário tiver acabado 
+        de ser preenchido com um valor incorreto.
+      */
+    </script>
+  </body>
+</html>
