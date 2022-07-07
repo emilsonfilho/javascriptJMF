@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de script JS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+    <h1>Texto em HTML</h1>
+    <script>
+        /* Declaraçãod de variável JS */
+        ano_nascimento = 1990; /* Variável Inteira */
+        ano_atual = 2022; /* Variável Inteira */
+        texto_idade = "Minha Idade é "; /* Variável String */
+       idade = ano_atual-ano_nascimento
+        /* Imprimindo variável na tela */
+        document.write(" <p> O meu ano de nascimento é ");
+        document.write(ano_nascimento + "</p>"); 
+        document.write(" <p class='texto'> O ano atual é " , ano_atual , "</p>");
+        document.write( ' <a  href="#" class="btn btn-success"> ' + texto_idade + idade + '</a>');
+        // '' != ""
+    </script>
+</body>
+</html>
